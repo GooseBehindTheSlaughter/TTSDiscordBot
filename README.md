@@ -5,6 +5,8 @@ of the command outloud using [Software Automatic moth (SAM)](https://discordier.
 
 # Usage
 `>message "title content" message content`<br>
+
+Install dependencies 
 `pip install -r requirements.txt`<br>
 [Discords Developer page](https://discord.com/developers/applications)<br>
 To set up the bot you're going to have to do it on your own it's pretty simple anyway just remember to enable read content
