@@ -5,3 +5,5 @@ of the command outloud using [Software Automatic moth (SAM)](https://discordier.
 
 # Usage
 `>message "title content" message content`
+
+to set up the bot youre going to have to do it on your own it's pretty simple anyway just remember to enable read content
