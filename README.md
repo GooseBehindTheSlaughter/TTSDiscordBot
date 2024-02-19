@@ -1,6 +1,6 @@
-# Text to speed discord bot
+# Text to speech discord bot
 
-Honestly im not sure why i made this but it's a simple discord bot that when the command is used it pushes a notification to the pc its running on and says the content 
+Honestly im not sure why i made this but it's a simple discord bot that when the command is used it pushes a notification to the pc it's running on and says the content 
 of the command outloud using [Software Automatic moth (SAM)](https://discordier.github.io/sam/)
 
 # Usage
