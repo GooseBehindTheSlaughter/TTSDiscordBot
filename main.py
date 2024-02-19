@@ -21,8 +21,6 @@ class Sam:
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='>', intents=intents)
-
-# Setting up the toast
 toast = ToastNotifier()
 
 @bot.event
@@ -39,11 +37,7 @@ async def message(ctx, *args):
         content = ' '.join(args[1:])
         
         print(f"\nNew message from {ctx.author.name}: {title}:{content}\n")
-
-        # Show the windows notification
         toast.show_toast(title, content, threaded= True)
-
-        # say it out
         Sam(content)
 
 # Run the bot
